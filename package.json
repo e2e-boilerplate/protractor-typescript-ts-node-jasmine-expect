@@ -1,0 +1,31 @@
+{
+  "name": "webdriverio-typescript-es6modules-tsnode-mocha-chai",
+  "version": "1.0.0",
+  "description": "Protractor end-to-end test automation boilerplate project. Using TypeScript, ES6 modules, ts-node &amp; jasmine",
+  "scripts": {
+    "upadte-webderiver": "webdriver-manager update",
+    "test": "protractor ./protractor.conf.js",
+    "lint": "tslint -c tslint.json './spec/*.ts'",
+    "pretty": "prettier --no-config './spec/*.ts' --write"
+  },
+  "keywords": [
+    "protractor",
+    "typescript",
+    "boilerplate",
+    "example"
+  ],
+  "author": "Girma Nigusse",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^3.4.4",
+    "@types/jasminewd2": "^2.0.8",
+    "@types/node": "^12.7.12",
+    "prettier": "^1.18.2",
+    "protractor": "^5.4.2",
+    "rimraf": "^3.0.0",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.6.4"
+  }
+}

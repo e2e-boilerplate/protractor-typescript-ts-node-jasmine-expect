@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+     "moduleResolution": "node",
+     "typeRoots": ["node_modules/@types"],
+    "esModuleInterop": true,
+    "outDir": "build",
+    "types": [
+      "jasmine",
+      "jasminewd2",
+      "node"
+    ]
+  }
+}
