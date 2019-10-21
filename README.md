@@ -4,7 +4,7 @@ Protractor end-to-end test automation boilerplate project. Using TypeScript, ES6
 ## Getting Started 
 
     git clone git@github.com:e2e-boilerplates/protractor-typescript-ES6-modules-tsnode-jasmine.git
-    cd protractor-typescript-ES5-modules-tsnode-jasmine
+    cd protractor-typescript-ES6-modules-tsnode-jasmine
     npm install
     npm run test
     
