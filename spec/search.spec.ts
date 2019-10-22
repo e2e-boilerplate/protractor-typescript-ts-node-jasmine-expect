@@ -20,10 +20,10 @@ describe("google search", () => {
   });
 
   it('the page title should start with "Cheese!"', async () => {
-    browser.wait(ExpectedConditions.urlContains('search'), 5000);
+    browser.wait(ExpectedConditions.urlContains("search"), 5000);
 
     const title = await browser.getTitle();
     const words = title.split(" ");
-    expect(words[0]).toBe('Cheese!');
+    expect(words[0]).toBe("Cheese!");
   });
 });
