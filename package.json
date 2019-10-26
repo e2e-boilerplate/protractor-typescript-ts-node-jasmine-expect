@@ -1,7 +1,7 @@
 {
-  "name": "webdriverio-typescript-es6modules-tsnode-jasmine",
+  "name": "protractor-es6modules-typescript-tsnode-jasmine",
   "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate project. Using TypeScript, ES6 modules, ts-node &amp; jasmine",
+  "description": "Protractor end-to-end test automation boilerplate project. Using ES6 modules, TypeScript,ts-node and jasmine",
   "scripts": {
     "upadte-webderiver": "npx webdriver-manager update",
     "test": "npx protractor ./protractor.conf.js",
@@ -10,7 +10,9 @@
   },
   "keywords": [
     "protractor",
+    "es6 module",
     "typescript",
+    "ts-node",
     "boilerplate",
     "ts-node",
     "example"
