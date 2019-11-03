@@ -20,7 +20,7 @@
   "author": "Girma Nigusse",
   "license": "MIT",
   "devDependencies": {
-    "@types/jasmine": "3.4.4",
+    "@types/jasmine": "3.4.5",
     "@types/jasminewd2": "2.0.8",
     "@types/node": "12.11.1",
     "husky": "3.0.9",
