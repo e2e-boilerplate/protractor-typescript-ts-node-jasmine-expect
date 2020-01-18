@@ -10,7 +10,7 @@ describe("google search", () => {
 
   it("should be on google search page", async () => {
     const title = await browser.getTitle();
-          expect(title).toEqual("Google");
+    expect(title).toEqual("Google");
   });
 
   it("should search for Cheese!", async () => {
@@ -22,7 +22,7 @@ describe("google search", () => {
   it('the page title should start with "Cheese!"', async () => {
     browser.wait(ExpectedConditions.urlContains("search"), 5000);
 
-          const title = await browser.getTitle();
+    const title = await browser.getTitle();
     const words = title.split(" ");
     expect(words[0]).toBe("Cheese!");
   });

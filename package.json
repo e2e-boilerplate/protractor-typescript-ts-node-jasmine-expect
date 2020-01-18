@@ -1,12 +1,13 @@
 {
   "name": "protractor-es6modules-typescript-tsnode-jasmine",
   "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate project. Using ES6 modules, TypeScript,ts-node and jasmine",
+  "description": "Protractor end-to-end test automation boilerplate project. Using ES6 modules, TypeScript, ts-node and jasmine",
   "scripts": {
-    "upadte-webderiver": "npx webdriver-manager update",
-    "test": "npx protractor ./protractor.conf.js",
     "lint": "npx tslint -c tslint.json './spec/*.ts'",
-    "pretty": "npx prettier --no-config './spec/*.ts' --write"
+    "pretty": "npx prettier --no-config './spec/*.ts' --write",
+    "upadte-webderiver": "npx webdriver-manager update --standalone false --gecko",
+    "test": "npx protractor ./protractor.conf.js",
+    "test-ci": "npx protractor ./protractor-ci.conf.js"
   },
   "keywords": [
     "protractor",
@@ -28,6 +29,7 @@
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1",
     "protractor": "5.4.2",
+    "puppeteer": "^2.0.0",
     "ts-node": "8.6.2",
     "tslint": "5.20.1",
     "tslint-config-prettier": "1.18.0",
