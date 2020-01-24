@@ -1,4 +1,4 @@
-name: Node CI
+name: protractor-es6modules-typescript-tsnode-jasmine
 
 on: [push]
 
@@ -17,10 +17,12 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm install, update-webdriver, and test
+    - name: INSTALL, UPDATE_WEBDRIVER
       run: |
         npm ci
         npm run upadte-webderiver
-        npm run test-ci
       env:
         CI: true
+    - name: TEST
+      run: |
+        npm run test-ci
