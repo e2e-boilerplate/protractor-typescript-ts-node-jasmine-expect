@@ -1,6 +1,9 @@
 name: protractor-es6modules-typescript-tsnode-jasmine
 
-on: [push]
+on: 
+  push:
+  schedule:
+    - cron: '0 0 2-30/2 * *'
 
 jobs:
   build:
