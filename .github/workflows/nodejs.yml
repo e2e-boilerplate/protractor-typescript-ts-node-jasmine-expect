@@ -1,4 +1,4 @@
-name: protractor-es6modules-typescript-tsnode-jasmine
+name: protractor-typescript-ts-node-jasmine-expect
 
 on: 
   push:
@@ -22,6 +22,9 @@ jobs:
         npm run upadte-webderiver
       env:
         CI: true
+    - name: UPDATE_WEBDRIVER
+      run: |
+        npm run upadte-webderiver
     - name: TEST
       run: |
         npm run test-ci
