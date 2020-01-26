@@ -1,7 +1,7 @@
 {
-  "name": "‘protractor-typescript-ts-node-jasmine-expect",
+  "name": "protractor-typescript-ts-node-jasmine-expect",
   "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate project. Using ES6 modules, TypeScript, ts-node and jasmine",
+  "description": "Protractor end-to-end test automation boilerplate, using TypeScript, ts-node, Jasmine and Expect",
   "scripts": {
     "lint": "npx tslint -c tslint.json './spec/*.ts'",
     "pretty": "npx prettier --no-config './spec/*.ts' --write",
