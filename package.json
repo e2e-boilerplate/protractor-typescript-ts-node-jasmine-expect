@@ -1,5 +1,5 @@
 {
-  "name": "protractor-es6modules-typescript-tsnode-jasmine",
+  "name": "‘protractor-typescript-ts-node-jasmine-expect",
   "version": "1.0.0",
   "description": "Protractor end-to-end test automation boilerplate project. Using ES6 modules, TypeScript, ts-node and jasmine",
   "scripts": {
