@@ -23,7 +23,7 @@
   "devDependencies": {
     "@types/jasmine": "3.5.2",
     "@types/jasminewd2": "2.0.8",
-    "@types/node": "12.12.25",
+    "@types/node": "12.12.26",
     "husky": "4.2.1",
     "lint-staged": "10.0.3",
     "prettier": "1.19.1",
