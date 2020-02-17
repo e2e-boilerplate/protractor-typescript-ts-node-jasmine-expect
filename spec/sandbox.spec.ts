@@ -1,10 +1,8 @@
-import { browser, by, element, ExpectedConditions, Key } from "protractor";
-
-const url: string = "https://e2e-boilerplates.github.io/sandbox/";
+import { browser, by, element } from "protractor";
 
 describe("Sandbox", () => {
   beforeAll(() => {
-    browser.get(url);
+    browser.get("https://e2e-boilerplates.github.io/sandbox/");
   });
 
   it("should be on Sandbox", async () => {

@@ -5,18 +5,20 @@
   "scripts": {
     "lint": "npx tslint -c tslint.json './spec/*.ts'",
     "pretty": "npx prettier --no-config './spec/*.ts' --write",
-    "upadte-webderiver": "npx webdriver-manager update --standalone false --gecko",
-    "test": "npx protractor ./protractor.conf.js",
-    "test-ci": "npx protractor ./protractor-ci.conf.js"
+    "upadte-webderiver": "npx webdriver-manager update",
+    "upadte-webderiver-ci": "npx webdriver-manager update --versions.chrome=79.0.3945.36",
+    "test": "npx protractor"
   },
   "keywords": [
     "protractor",
-    "es6 module",
+    "es6",
     "typescript",
     "ts-node",
     "boilerplate",
     "ts-node",
-    "example"
+    "example",
+    "e2e",
+    "e2e test"
   ],
   "author": "Girma Nigusse",
   "license": "MIT",
@@ -29,7 +31,6 @@
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1",
     "protractor": "5.4.3",
-    "puppeteer": "2.1.1",
     "ts-node": "8.6.2",
     "tslint": "5.20.1",
     "tslint-config-prettier": "1.18.0",

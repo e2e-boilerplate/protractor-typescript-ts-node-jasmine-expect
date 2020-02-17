@@ -1,6 +1,6 @@
 name: protractor-typescript-ts-node-jasmine-expect
 
-on: 
+on:
   push:
   schedule:
     - cron: '0 0 2-30/2 * *'
@@ -16,15 +16,14 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - name: INSTALL, UPDATE_WEBDRIVER
+    - name: INSTALL
       run: |
         npm ci
-        npm run upadte-webderiver
       env:
         CI: true
     - name: UPDATE_WEBDRIVER
       run: |
-        npm run upadte-webderiver
+        npm run upadte-webderiver-ci
     - name: TEST
       run: |
-        npm run test-ci
+        npm run test
