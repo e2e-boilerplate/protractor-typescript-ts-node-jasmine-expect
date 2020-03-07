@@ -42,9 +42,9 @@
   "scripts": {
     "lint": "npx tslint -c tslint.json './spec/*.ts'",
     "pretty": "npx prettier --no-config './spec/*.ts' --write",
+    "test": "npx protractor",
     "upadte-webderiver": "npx webdriver-manager update",
-    "upadte-webderiver-ci": "npx webdriver-manager update --versions.chrome=79.0.3945.36",
-    "test": "npx protractor"
+    "upadte-webderiver-ci": "npx webdriver-manager update --versions.chrome=79.0.3945.36"
   },
   "version": "1.0.0"
 }
