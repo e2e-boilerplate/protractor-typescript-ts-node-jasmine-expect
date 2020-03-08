@@ -2,7 +2,7 @@ name: protractor-typescript-ts-node-jasmine-expect
 'on':
   push: null
   schedule:
-    - cron: 50 5 1-31/2 * *
+    - cron: 0 0 1-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,6 +20,6 @@ jobs:
       - name: Build
         run: npm run build --if-present
       - name: Updating webdriver
-        run: 'npm run update-webdriver:ci'
+        run: npm run update-webdriver
       - name: Executing tests
         run: npm run test
