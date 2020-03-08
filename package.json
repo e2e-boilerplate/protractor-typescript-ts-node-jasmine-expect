@@ -43,8 +43,7 @@
     "lint": "npx tslint -c tslint.json './spec/*.ts'",
     "pretty": "npx prettier --no-config './spec/*.ts' --write",
     "test": "npx protractor",
-    "update-webdriver": "npx webdriver-manager update",
-    "update-webdriver:ci": "npx webdriver-manager update --versions.chrome=79.0.3945.36"
+    "update-webdriver": "npx webdriver-manager update"
   },
   "version": "1.0.0"
 }
