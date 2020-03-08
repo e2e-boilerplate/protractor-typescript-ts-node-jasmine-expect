@@ -1,6 +1,6 @@
 {
-  "author": "",
-  "description": "Protractor end-to-end test automation boilerplate, using TypeScript, ts-node, Jasmine and Expect",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "description": "protractor end-to-end test automation boilerplate.",
   "devDependencies": {
     "@types/jasmine": "3.5.8",
     "@types/jasminewd2": "2.0.8",
@@ -21,7 +21,12 @@
     }
   },
   "keywords": [
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "example",
     "expect",
+    "integration test",
     "jasmine",
     "protractor",
     "ts-node",
