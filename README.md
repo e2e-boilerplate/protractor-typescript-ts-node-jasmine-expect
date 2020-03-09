@@ -6,8 +6,8 @@ Protractor end-to-end test automation boilerplate, using TypeScript, ts-node, Ja
 
 ## Getting Started
 
-git clone git@github.com:e2e-boilerplate/protractor-typescript-ts-node-jasmine-expect.git
-cd protractor-typescript-ts-node-jasmine-expect
-npm install
-npm run update-webdriver
-npm run test
+    	git clone git@github.com:e2e-boilerplate/protractor-typescript-ts-node-jasmine-expect.git
+    	cd protractor-typescript-ts-node-jasmine-expect
+    	npm install
+    	npm run update-webdriver
+    	npm run test

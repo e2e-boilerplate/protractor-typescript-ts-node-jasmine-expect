@@ -1,5 +1,5 @@
 {
-  "author": "",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/protractor-typescript-ts-node-jasmine-expect/issues"
   },
@@ -25,7 +25,12 @@
     }
   },
   "keywords": [
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "example",
     "expect",
+    "integration test",
     "jasmine",
     "protractor",
     "ts-node",
