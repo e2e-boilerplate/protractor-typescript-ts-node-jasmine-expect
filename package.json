@@ -34,8 +34,7 @@
   "license": "MIT",
   "lint-staged": {
     "*.{js,css,json,md}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   },
   "name": "protractor-typescript-ts-node-jasmine-expect",
