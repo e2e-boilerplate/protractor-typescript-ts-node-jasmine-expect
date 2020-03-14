@@ -1,1 +1,57 @@
-{"author":"Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)","bugs":{"url":"https://github.com/e2e-boilerplate/protractor-typescript-ts-node-jasmine-expect/issues"},"description":"Protractor end-to-end test automation boilerplate. using TypeScript, ts-node, Jasmine and Expect.","devDependencies":{"@types/jasmine":"3.5.9","@types/jasminewd2":"2.0.8","@types/node":"12.12.30","husky":"4.2.3","lint-staged":"10.0.8","prettier":"1.19.1","pretty-quick":"2.0.1","protractor":"5.4.3","ts-node":"8.6.2","tslint":"5.20.1","tslint-config-prettier":"1.18.0","typescript":"3.8.3"},"homepage":"https://github.com/e2e-boilerplate/protractor-typescript-ts-node-jasmine-expect#readme","husky":{"hooks":{"pre-commit":"lint-staged"}},"keywords":["boilerplate","e2e","e2e tests","example","expect","integration test","jasmine","protractor","ts-node","typescript"],"license":"MIT","lint-staged":{"*.{js,css,json,md}":["prettier --write"]},"name":"protractor-typescript-ts-node-jasmine-expect","repository":{"type":"git","url":"git+https://github.com/e2e-boilerplate/protractor-typescript-ts-node-jasmine-expect.git"},"scripts":{"lint":"npx tslint -c tslint.json './spec/*.ts'","pretty":"npx prettier --no-config './spec/*.ts' --write","test":"npx protractor","update-webdriver":"npx webdriver-manager update"},"version":"1.0.0"}
+{
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "bugs": {
+    "url": "https://github.com/e2e-boilerplate/protractor-typescript-ts-node-jasmine-expect/issues"
+  },
+  "description": "Protractor end-to-end test automation boilerplate. using TypeScript, ts-node, Jasmine and Expect.",
+  "devDependencies": {
+    "@types/jasmine": "3.5.9",
+    "@types/jasminewd2": "2.0.8",
+    "@types/node": "12.12.30",
+    "husky": "4.2.3",
+    "lint-staged": "10.0.8",
+    "prettier": "1.19.1",
+    "pretty-quick": "2.0.1",
+    "protractor": "5.4.3",
+    "ts-node": "8.6.2",
+    "tslint": "5.20.1",
+    "tslint-config-prettier": "1.18.0",
+    "typescript": "3.8.3"
+  },
+  "homepage": "https://github.com/e2e-boilerplate/protractor-typescript-ts-node-jasmine-expect#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "keywords": [
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "example",
+    "expect",
+    "integration test",
+    "jasmine",
+    "protractor",
+    "ts-node",
+    "typescript"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "prettier --write"
+    ]
+  },
+  "name": "protractor-typescript-ts-node-jasmine-expect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplate/protractor-typescript-ts-node-jasmine-expect.git"
+  },
+  "scripts": {
+    "lint": "npx tslint -c tslint.json './spec/*.ts'",
+    "pretty": "npx prettier --no-config './spec/*.ts' --write",
+    "test": "npx protractor",
+    "update-webdriver": "npx webdriver-manager update"
+  },
+  "version": "1.0.0"
+}
