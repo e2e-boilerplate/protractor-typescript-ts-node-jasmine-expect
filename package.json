@@ -53,5 +53,6 @@
     "test": "npx protractor",
     "update-webdriver": "npx webdriver-manager update"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "dependencies": {}
 }
