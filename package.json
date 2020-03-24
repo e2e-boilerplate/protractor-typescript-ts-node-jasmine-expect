@@ -1,5 +1,5 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "Girma Nigusse <xgirma@gmail.com>",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/protractor-typescript-ts-node-jasmine-expect/issues"
   },
@@ -13,10 +13,10 @@
   "devDependencies": {
     "@types/jasmine": "3.5.9",
     "@types/jasminewd2": "2.0.8",
-    "@types/node": "13.9.3",
+    "@types/node": "13.9.2",
     "husky": "4.2.3",
     "lint-staged": "10.0.8",
-    "prettier": "2.0.2",
+    "prettier": "1.19.1",
     "tslint": "6.1.0",
     "tslint-config-prettier": "1.18.0",
     "tslint-plugin-prettier": "2.2.0"
@@ -54,7 +54,7 @@
     "lint": "npx tslint -c tslint.json './spec/*.ts'",
     "pretty": "npx prettier --no-config './spec/*.ts' --write",
     "test": "npx protractor",
-    "update-webdriver": "npx webdriver-manager update"
+    "update:webdriver": "npx webdriver-manager update --gecko false"
   },
   "version": "1.0.0"
 }
