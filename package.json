@@ -41,7 +41,7 @@
   ],
   "license": "MIT",
   "lint-staged": {
-    "*.{js,css,json,md}": [
+    "*.{js,ts,json,md}": [
       "prettier --write"
     ]
   },
