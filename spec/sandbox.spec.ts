@@ -7,9 +7,9 @@ describe("Sandbox", () => {
 
   it("should be on Sandbox", async () => {
     const title = await browser.getTitle();
-    const header = element(by.css("h1"));
+    const header = await element(by.css("h1")).getText();
 
     expect(title).toEqual("Sandbox");
-    expect(header.getText()).toEqual("Sandbox");
+    expect(header).toEqual("Sandbox");
   });
 });
