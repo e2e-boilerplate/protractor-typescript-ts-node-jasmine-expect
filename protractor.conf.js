@@ -1,17 +1,23 @@
+
+      
 const directConnect = true;
 const specs = ["spec/*.spec.ts"];
+const framework = "jasmine";
+
+const mochaOpts = {};
+
 const onPrepare = () => {
-  require("ts-node").register({
-    project: require("path").join(__dirname, "./tsconfig.json")
-  });
+  browser.waitForAngularEnabled(false);
 };
 
 const headed = {
   directConnect,
   specs,
   capabilities: {
-    browserName: "chrome"
+    browserName: "chrome",
   },
+  framework,
+  mochaOpts,
   onPrepare
 };
 
@@ -20,13 +26,15 @@ const headless = {
   specs,
   capabilities: {
     browserName: "chrome",
-    chromeOptions: {
-      args: ["--headless", "--no-sandbox", "--disable-gpu"]
-    }
+      chromeOptions: {
+        args: ["--headless", "--no-sandbox", "--disable-gpu"],
+      },
   },
+  framework,
+  mochaOpts,
   onPrepare
 };
 
-const config = process.env.GITHUB_ACTIONS ? headless : headed;
-
+const config = process.env.GITHUB_ACTIONS ? headless : headed;    
+           
 exports.config = config;
