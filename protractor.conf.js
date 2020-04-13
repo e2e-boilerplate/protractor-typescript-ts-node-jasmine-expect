@@ -8,6 +8,9 @@ const mochaOpts = {};
 
 const onPrepare = () => {
   browser.waitForAngularEnabled(false);
+  require("ts-node").register({
+    project: require("path").join(__dirname, "./tsconfig.json")
+  });
 };
 
 const headed = {
