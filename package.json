@@ -13,7 +13,7 @@
   "devDependencies": {
     "@types/jasmine": "3.5.14",
     "@types/jasminewd2": "2.0.8",
-    "@types/node": "13.13.22",
+    "@types/node": "13.13.23",
     "husky": "4.3.0",
     "lint-staged": "10.4.0",
     "prettier": "2.1.2",
