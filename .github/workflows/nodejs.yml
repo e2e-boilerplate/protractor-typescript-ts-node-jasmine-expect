@@ -21,7 +21,7 @@ jobs:
       - name: build
         run: npm run build --if-present
       - name: 'update:webdriver'
-        run: 'npm run update:webdriver -- --versions.chrome=86.0.4240.22'
+        run: 'npm run update:webdriver -- --versions.chrome=88.0.4324.96'
       - name: 'sleep:7s'
         uses: jakejarvis/wait-action@master
         with:
