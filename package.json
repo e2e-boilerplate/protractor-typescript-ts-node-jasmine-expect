@@ -14,7 +14,7 @@
     "@types/jasmine": "3.8.1",
     "@types/jasminewd2": "2.0.10",
     "@types/node": "13.13.52",
-    "husky": "6.0.0",
+    "husky": "9.1.6",
     "lint-staged": "10.5.4",
     "prettier": "2.3.2",
     "tslint": "6.1.3",
